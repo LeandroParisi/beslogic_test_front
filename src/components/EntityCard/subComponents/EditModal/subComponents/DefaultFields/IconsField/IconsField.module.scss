@@ -1,0 +1,12 @@
+@import '../../../EditModal.module.scss';
+
+.container {
+  @extend .subSection;
+
+  .optionsContainer {
+  
+    > .optionIcon {
+      cursor: pointer;
+    }
+  }
+}
